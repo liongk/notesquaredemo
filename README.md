@@ -1,1 +1,1 @@
-# notesquaredemo
+# notesquare
