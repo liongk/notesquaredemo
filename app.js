@@ -1,3 +1,4 @@
+//ES5
 const express = require('express')
 const mongoose = require('mongoose')
 const morgan = require('morgan')
@@ -44,9 +45,8 @@ app.get('/notes', function(req, res){
         if(err){
             console.log(err)
         }else{
-            res.json(notes)
-            // res.render('notes/index', {notes: notes})
-            // console.log(notes.file)
+            //res.json(notes)
+            res.render('notes/index', {notes: notes})
         }
     })
 })
