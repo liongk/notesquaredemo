@@ -1,3 +1,3 @@
 # notesquare
 <p>NoteSquare is an app for note-sharing.</p>
-<p>Guys I need help for</p>
+<p>Currently needing help for: using search queries to filter the index, uploading files to mongoDB using multer (I'm an amateur)</p>
